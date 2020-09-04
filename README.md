@@ -89,3 +89,4 @@ git fetch upstream
 git pull upstream master
 git push
 ```
+[![Netlify Status](https://api.netlify.com/api/v1/badges/bb8ba75a-c237-4ce9-bd49-e55cc73787aa/deploy-status)](https://app.netlify.com/sites/proxyservers/deploys)
