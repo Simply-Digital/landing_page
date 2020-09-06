@@ -30,19 +30,21 @@ const MainHero = ({ minPrice }: Props) => (
 				lg={{ size: 10, offset: 1 }}
 			>
 				<h1 className="main-content__title mb-3 mb-lg-4 h2">
-					Anonymous
+					Highest Quality Anonymous
 					<br />
-					HTTP & SOCKSv5 Proxies
+					HTTP & SOCKS5 Proxies
 				</h1>
 				<p className="main-content__lead lead mb-4">
-					Fully anonymous private proxies
+					Fully Anonymous Private Proxies
 					<br />
-					(shared or dedicated) starting at just ${minPrice}
+					starting at just ${minPrice} 
+                                        <br />
+                                        Fully Customizable Client Dashboard.
 				</p>
 				<a
 					href={MEMBERS_URL}
 					className="btn btn--green btn--lg mb-0 mt-4">
-					Members
+					Login
 					<FontAwesomeIcon icon={faArrowRight} className="ml-2" />
 				</a>
 			</Col>
