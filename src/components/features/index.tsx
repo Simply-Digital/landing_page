@@ -30,67 +30,73 @@ import {
 const Features = () => (
     <section className="features section section--gradient__1">
         <Container>
-            <Preamble light title="Unique proxy features">
+            <Preamble light title="Unique Proxy Features">
                 Our infrastructure is unique, battle-tested and carefully monitored by
                 <br />
-                supervisors 24/7. There is no other proxy provider even close to
+                Proxy Professionals 24/7 365 Days a year. We have extreme confidence that our service
                 <br />
-                operating at the same level and standards that we do.
+                operates at a level that will 100% satisfy your Proxy/Socks needs, every single time.
             </Preamble>
             <Row>
-                <Feature icon={faUserSecret} title="Fully anonymous">
-                    All our proxies are carefully set and monitored in
-                    order to ensure they are 100% anonymous and without any sort of ip or dns leaks.
+                <Feature icon={faUserSecret} title="Fully Anonymous">
+                    All of our proxies are carefully decided and monitored in
+                    order to ensure 100% anonymity, without any sort of ip or dns leaks.
                 </Feature>
-                <Feature icon={faLifeRing} title="24/7 Heroic support">
+                <Feature icon={faLifeRing} title="24/7 Dedicated Support">
                     Sometimes the kind of support you offer means more than your product and we
                     know that. We're always available and you can give us a try.
                 </Feature>
-                <Feature icon={faGlobe} title="Multiple datacenters">
+                <Feature icon={faGlobe} title="Fully Customizable">
                     We're offering more than 100 locations for our proxies and we constantly refresh our
-                    list to add more locations from all over the world.
+                    list to add more locations from all over the world, this ensures high quality connections
+                    purchase after purchase.
                 </Feature>
             </Row>
             <Row>
                 <Feature icon={faFighterJet} title="Instant activation">
-                    Your proxies are activated instantly once your payment enters our system and
-                    we really stand behind this word which is not just for marketing.
+                    Your proxies are activated INSTANTLY once your payment clears our system.
+                    We take pride in offering a service with the word "Instant" and actually 
+                    make good on that promise. Words on our website aren't just for SEO. We mean them.
                 </Feature>
-                <Feature icon={faSignal} title="High speed connections">
-                    All our servers are attached to 1Gbps and 10Gbps connections and we constantly
-                    update our networking stacks to maintain a top position in terms of speed.
+                <Feature icon={faSignal} title="Ultra High Speed">
+                    All of our servers are attached to 1Gbps through 10Gbps connections and we are 
+                    constantly updating our networking stacks to maintain the top speed available.
                 </Feature>
-                <Feature icon={faTerminal} title="Powerful automation">
-                    From status checkers to supervisors and service testers we have it all.
-                    Our stack is fully automated and self-healing without any intervention.
-                </Feature>
-            </Row>
-            <Row>
-                <Feature icon={faPiggyBank} title="Affordable pricing">
-                    Given the performance and services we provide we can proudly say that our prices are very
-                    small and fair. Check out our pricing page and we promise you won't be disappointed.
-                </Feature>
-                <Feature icon={faUsers} title="Dual authentication">
-                    Don't wanna use a username and password combo to authenticate to your proxies?
-                    No problem, you can use your ip address instead.
-                </Feature>
-                <Feature icon={faRetweet} title="Monthly list refresh">
-                    Each month you can replace your proxies without our intervention.
-                    Our control-panel allows you to achieve such advanced operations.
+                <Feature icon={faTerminal} title="Dedicated Backend Monitoring">
+                    From Status Checking to Managing and Service Testing, we have it all.
+                    Our stack is fully Automated and Dedicated and Self-Healing without any intervention.
                 </Feature>
             </Row>
             <Row>
-                <Feature icon={faChartLine} title="Unlimited bandwidth">
-                    We're not placing any sorts of limits on your bandwith so you can enjoy really fast
-                    and responsive proxies for your applications.
+                <Feature icon={faPiggyBank} title="Honest Vandor Pricing">
+                    Given the extremely high performance and service we provide, we can proudly say that our 
+                    pricing is honest and with low profit margin. We do not price up as many proxy providers
+                    are known for. We are committed in giving a service that is above the line in quality, but
+                    surprisingly cheap for the quality of our Protocols.
                 </Feature>
-                <Feature icon={faCrosshairs} title="Pick your proxy">
-                    We don't sell you packages. You can pick each proxy IP individually by subnet, city,
-                    state or country. You're in full control.
+                <Feature icon={faUsers} title="Dual Authentication">
+                    Why is it that almost all providers force you to pick your authentication method? Are you
+                    not purchasing a service? Why limit your ability to make your own decisions? No thanks.
+                    We hold you accountable for your actions using our service, with that means you decide how
+                    you want to use that paid service. Authenticate how you want, we're here for your satisfaction.
                 </Feature>
-                <Feature icon={faCircle} title="No leaks">
-                    Our automation suite constantly monitors and checks the proxies against IP leaks or
-                    DNS leaks to ensure elite anonymity for our customers.
+                <Feature icon={faRetweet} title="Monthly List Refreshing">
+                    Each month you can replace your proxies with it without our assistance.
+                    Our User Dashboard was designed for you. Allowing you to achieve full control.
+                </Feature>
+            </Row>
+            <Row>
+                <Feature icon={faChartLine} title="Unlimited Bandwidth">
+                    We're not placing any limit on your bandwith. No cap, no reduction. It's yours for the
+                    time YOU paid for it. Enjoy fast, responsive proxies for your needs.
+                </Feature>
+                <Feature icon={faCrosshairs} title="Pick Your Proxy">
+                    We don't sell you packages. You can pick each IP individually using our search tools. 
+                    Sort by Protocol, Country, State, City and more! You're in full control. You paid for it.
+                </Feature>
+                <Feature icon={faCircle} title="No Leaks">
+                    Our automation suite constantly monitors and checks the proxies against IP and DNS leaks.
+                    This ensure elite anonymity for you, all year long. Focus on your task, we focus on you.
                 </Feature>
             </Row>
         </Container>
