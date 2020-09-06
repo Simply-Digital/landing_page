@@ -103,13 +103,13 @@ class NavBar extends React.Component<Props, State> {
 
 							<NavItem>
 								<NavLink tag="a" className="text-uppercase" href={MEMBERS_URL}>
-									Members
+									Login
 								</NavLink>
 							</NavItem>
                         </Nav>
                         <Nav className="ml-auto justify-content-end align-items-start align-items-lg-center" navbar>
                             <NavItem>
-                                <NavLink href={MEMBERS_URL} className="text-uppercase nav-link__cta rounded">Buy now</NavLink>
+                                <NavLink href={MEMBERS_URL} className="text-uppercase nav-link__cta rounded">Buy Now!</NavLink>
                             </NavItem>
                         </Nav>
 
