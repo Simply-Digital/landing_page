@@ -14,31 +14,31 @@ const PricingFeatures = () => (
 				<Col lg={{ size: 'auto' }} md={{ size: 4 }} sm={{ size: 6 }} className="mt-4 mt-md-0">
 					<div className="pricing-feature d-flex align-items-center justify-content-center">
 						<FontAwesomeIcon className="icon" icon={faCircle} />
-						<p>Fully anonymous</p>
+						<p>Fully Anonymous</p>
 					</div>
 				</Col>
 				<Col lg={{ size: 'auto' }} md={{ size: 4 }} sm={{ size: 6 }} className="mt-4 mt-md-0">
 					<div className="pricing-feature d-flex align-items-center justify-content-center">
 						<FontAwesomeIcon className="icon" icon={faCircle} />
-						<p>24/7 Heroic support</p>
+						<p>Dedicated Support</p>
 					</div>
 				</Col>
 				<Col lg={{ size: 'auto' }} md={{ size: 4 }} sm={{ size: 6 }} className="mt-4 mt-md-0">
 					<div className="pricing-feature d-flex align-items-center justify-content-center">
 						<FontAwesomeIcon className="icon" icon={faCircle} />
-						<p>Multiple datacenters</p>
+						<p>Multiple Locations</p>
 					</div>
 				</Col>
 				<Col lg={{ size: 'auto' }} md={{ size: 4 }} sm={{ size: 6 }} className="mt-4 mt-lg-0">
 					<div className="pricing-feature d-flex align-items-center justify-content-center">
 						<FontAwesomeIcon className="icon" icon={faCircle} />
-						<p>Affordable pricing</p>
+						<p>Honest Pricing</p>
 					</div>
 				</Col>
 				<Col lg={{ size: 'auto' }} md={{ size: 4 }} sm={{ size: 6 }} className="mt-4 mt-lg-0">
 					<div className="pricing-feature d-flex align-items-center justify-content-center">
 						<FontAwesomeIcon className="icon" icon={faCircle} />
-						<p>Instant activation</p>
+						<p>Instant Activation</p>
 					</div>
 				</Col>
 			</Row>
