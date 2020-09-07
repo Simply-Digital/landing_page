@@ -51,9 +51,9 @@ class MainPage extends React.Component<Props, State> {
 		return (
 			<React.Fragment>
 				<Helmet>
-					<title>Dedicated Anonymous Proxies and SOCKS5</title>
+					<title>Anonymous Proxies and SOCKS5</title>
 					<meta name="description" content={SEO_DESCRIPTION} />
-					<meta name="keywords" content={SEO_KEYWORDS} /
+					<meta name="keywords" content={SEO_KEYWORDS} />
 				</Helmet>
 
 				<MainRoute />
