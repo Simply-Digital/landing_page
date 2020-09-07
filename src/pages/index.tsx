@@ -51,6 +51,16 @@ class MainPage extends React.Component<Props, State> {
 		return (
 			<React.Fragment>
 				<Helmet>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-H8GPMSV4K3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-H8GPMSV4K3');
+</script>
+
 					<title>Anonymous Proxies and SOCKS5</title>
 					<meta name="description" content={SEO_DESCRIPTION} />
 					<meta name="keywords" content={SEO_KEYWORDS} />
