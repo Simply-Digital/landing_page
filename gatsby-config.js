@@ -2,7 +2,7 @@
 /*
  The name of this site that we are current on.
 */
-const THIS_SITE_DOMAIN = 'https://www.proxyservers.co';
+const THIS_SITE_DOMAIN = 'https://proxyservers.co';
 
 module.exports = {
   siteMetadata: {
